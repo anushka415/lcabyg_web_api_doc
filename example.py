@@ -10,12 +10,12 @@ Place the user name and api key in the fields "USERNAME" and "API_KEY" located i
 """
 
 # Turn this on if not using environment variables
-USERNAME = 'INSERT YOUR USERNAME'
-API_KEY = 'INSERT YOUR API KEY'
+USERNAME = 'yasmin.bellizzi@revalu.io'
+API_KEY = '8975e70a-d2ae-47e3-a695-99addd966e9a'
 
 # Turn this on if using environment variables
-#USERNAME = os.environ.get('INSERT YOUR USERNAME')
-#API_KEY = os.environ.get('INSERT YOUR API API_KEY')
+#USERNAME = os.environ.get('yasmin.bellizzi@revalu.io')
+#API_KEY = os.environ.get('975e70a-d2ae-47e3-a695-99addd966e9a')
 
 if not USERNAME or not API_KEY:
     print('Please provide a USERNAME, API_KEY')
